@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Bar */}
-      <nav className="bg-[#800000]/90">
+      <nav className="bg-[#800000]/90 sticky top-0 z-50 backdrop-blur-md">
         <ul className="flex justify-evenly gap-8 py-3">
           {navItems.map((item, index) => (
             <motion.li
